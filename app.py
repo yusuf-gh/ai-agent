@@ -1,28 +1,3 @@
-# import streamlit as st
-
-# st.header("Business Assistant")
-
-# question = st.text_input("Type your question below:")
-
-# info = {
-#     "working_hours": "Our working hours are 24/7",
-#     "address_of_building": "We are located at Uztelecom",
-#     "location_of_building": "Our office is at Uztelecom",
-#     "contact_info": "+998 90 788-66-80",
-#     "mobile": "+998 90 788-66-80",
-#     "gmail_address": "sanjar.meb@gmail.com",
-# }
-
-# reply = "Not legal cuestion !!!"
-
-# if question:
-#     lower_q = question.lower()
-#     for keyword in info:
-#         if keyword in lower_q:
-#             reply = info[keyword]
-#             break
-#     st.success(reply)
-
 import streamlit as st
 
 st.header("Business Assistant")
